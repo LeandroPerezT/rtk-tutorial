@@ -1,0 +1,43 @@
+.card {
+  box-sizing: border-box;
+  display: grid;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  grid-template-areas:
+    "title"
+    "image"
+    "type";
+
+  border-radius: 5px;
+  box-shadow: 2px 5px 14px 0px rgba(115, 115, 115, 0.53);
+}
+.card-title {
+  grid-area: title;
+  margin: auto;
+}
+.card-image {
+  grid-area: image;
+  background-color: white;
+  margin: auto;
+}
+
+.card-type {
+  grid-area: type;
+  margin: auto;
+  padding: 3px;
+}
+
+.type {
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.fire {
+  background-color: tomato;
+}
+
+.electric {
+  background-color: rgb(228, 228, 68);
+}
