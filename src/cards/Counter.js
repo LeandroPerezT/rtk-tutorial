@@ -5,7 +5,7 @@ const Counter = () => {
   return (
     <div className="counter">
       <AiOutlineMinusCircle onClick={() => alert('implement minus counter')} className="minus"/>
-      <span className="number">12</span>
+      <span className="number">7</span>
       <AiOutlinePlusCircle onClick={() => alert('implement plus counter')} className="plus"/>
     </div>
   )

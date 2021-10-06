@@ -35,10 +35,71 @@
   padding: 3px;
 }
 
+/* Pokemon types badges */
+.normal {
+  background-color: #a8aa74;
+}
+
 .fire {
-  background-color: tomato;
+  background-color: #f55a04;
 }
 
 .electric {
-  background-color: rgb(228, 228, 68);
+  background-color: #ffdf0d;
+}
+
+.water {
+  background-color: #6691f0;
+}
+
+.psychic {
+  background-color: #ef6f8d;
+}
+
+.grass {
+  background-color: #96a551;
+}
+
+.ground {
+  background-color: #e0c484;
+}
+
+.rock {
+  background-color: #bda233;
+}
+
+.flying {
+  background-color: #a995e3;
+}
+
+.steel {
+  background-color: #b7b7cd;
+}
+
+.ghost {
+  background-color: #70558f;
+}
+
+.fight {
+  background-color: #b93427;
+}
+
+.bug {
+  background-color: #a8b71b;
+}
+
+.poison {
+  background-color: #934d90;
+}
+
+.dragon {
+  background-color: #6e39e9;
+}
+
+.ice {
+  background-color: #a0dadb;
+}
+
+.fairy {
+  background-color: #dda4d8;
 }
