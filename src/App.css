@@ -1,4 +1,19 @@
 .App {
-  display: flex;
-  justify-content: center;
+  margin: 50px;
+  display: grid;
+  margin: auto;
+}
+
+.cards {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+.title {
+  justify-self: center;
+  margin-bottom: 20px;
+  font-size: 1.3em;
 }

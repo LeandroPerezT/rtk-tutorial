@@ -1,0 +1,32 @@
+.counter {
+  justify-self: center;
+  width: auto;
+  margin-bottom: 10px;
+  color: rgb(68, 68, 68);
+}
+
+.plus {
+  font-size: 2em;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.minus {
+  font-size: 2em;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.number {
+  font-size: 2em;
+  position: relative;
+  top: -4px;
+}
+
+.footer-counter {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.big-number {
+  font-size: 2em;
+}

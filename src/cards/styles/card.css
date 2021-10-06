@@ -26,6 +26,7 @@
   grid-area: type;
   margin: auto;
   padding: 3px;
+  margin-bottom: 3px;
 }
 
 .type {
