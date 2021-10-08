@@ -1,4 +1,3 @@
-import { queryAllByDisplayValue } from '@testing-library/dom'
 import { AiOutlinePlusCircle, AiOutlineMinusCircle } from 'react-icons/ai'
 import { useSelector, useDispatch } from 'react-redux'
 import { selectValue, increment, decrement } from './counterSlice'
@@ -11,15 +10,19 @@ const Counter = () => {
 
   return (
     <div className="counter">
-      <AiOutlineMinusCircle onClick={() =>{
+      <AiOutlineMinusCircle 
+      onClick={() =>{
        if(value > 1){
         dispatch(decrement())
        }
-      } } className="minus"/>
+      }}
+      className="minus"/>
       <span className="number">{value}</span>
-      <AiOutlinePlusCircle onClick={() =>{
+      <AiOutlinePlusCircle 
+      onClick={() =>{
         dispatch(increment())
-      }} className="plus"/>
+      }}
+      className="plus"/>
     </div>
   )
 }
