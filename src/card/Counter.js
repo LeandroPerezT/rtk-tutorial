@@ -11,9 +11,15 @@ const Counter = () => {
 
   return (
     <div className="counter">
-      <AiOutlineMinusCircle onClick={() => dispatch(decrement())} className="minus"/>
+      <AiOutlineMinusCircle onClick={() =>{
+       if(value > 1){
+        dispatch(decrement())
+       }
+      } } className="minus"/>
       <span className="number">{value}</span>
-      <AiOutlinePlusCircle onClick={() => dispatch(increment())} className="plus"/>
+      <AiOutlinePlusCircle onClick={() =>{
+        dispatch(increment())
+      }} className="plus"/>
     </div>
   )
 }
